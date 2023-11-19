@@ -27,7 +27,9 @@ def decode_image(path_to_png):
                 pixels[x, y] = (0, 0, 0)
 
     # DO NOT MODIFY. Save the decoded image to disk:
-    decoded_image.save("decoded_image.png")
+    # decoded_image.save("decoded_image.png")
+    decoded_image.save("decoded_dalek.png") # Uncomment to test on the Dalek image
 
 if __name__ == '__main__':
-    decode_image("doggo.png")
+    # decode_image("doggo.png")
+    decode_image("encoded_image.png") # Uncomment to test on the Dalek image
